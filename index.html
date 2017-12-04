@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <!--
+        Deli Counter
+        The local deli is putting in a new computerized queue to keep track of their customers and improve productivity. 
+        At the beginning of the day, the deli is empty so the queue should be represented by an empty array. 
+        Build an array of objects that holds the customer’s name, and what they ordered. 
+        Build a function that puts a string containing what the person ordered and a string containing the name of the person wishing to join the line in the array. 
+        Build a function that displays everyone’s current place in line on an HTML table. If there is nobody in line, it should say "The line is currently empty.". 
+        Remember that people like to count from 1, not from 0 ("zero") like computers. Build a function which should call out (i.e. display on the webpage) the next person in line and then remove them from the front. 
+        If there is nobody in line, it should call out (display on the webpage) that "There is nobody waiting to be served!". 
+
+        body | div #one 
+        div #one | h1 | section #groupI | section #groupI2 | section #groupS
+        section #groupI | input #nameI | button #addCus -> addCus() | button #cusServed -> cusServed()
+        section #groupI2 | input .orderI | erasI(this) | button #addOrd | addOrder() 
+    -->
+    <head>
+        <title>Deli Queue</title>
+
+        <link rel="stylesheet" type="text/css" href="Deli2.css">
+        <script src='Deli2.js'></script>
+    </head>
+
+    <body  onload='emptyT()'>
+        <div id='one'>
+                <h1><img src='1.png' height= 40px>Local Deli Queue</h1>
+                <section id='groupI'>
+                    <input type='text' id='nameI' placeholder="Enter customer's name" onclick='erasI(this)'>
+                    <br>
+                    <button id='cusServed' onclick='cusServed()'>Customer Served</button>
+                    <button id='addCus' onclick='addCus()'>Add Customer</button>                     
+                </section>
+                
+                <section id='groupI2'>
+                    <input type='text' name='orderI' class='orderI' placeholder="Enter customer's order" onclick='erasI(this)'>                        
+                    <button id='addOrd' onclick='addOrder()'>Add Another Order</button>                                     
+                </section>
+
+                <section id='groupS'>
+                </section>
+
+                <section id='instruction'>
+                    <h4> Instructions:</h4><br>
+                    <ul>
+                        <li>Click <em style='color: grey;'>Add Another Order</em> button, if you have more than one item for a customer's order.</li>
+                        <li>You must fill the customer's name and at least one order item to successfully add to the deli queue.</li>
+                        <li>Click <em style='color: grey;'>Add Customer</em> button to add entered information to the deli queue.</li>
+                        <li> The <em style='color: grey;'>Customer Served</em> button will remove the first customer from the deli queue.</li>
+                    </ul>
+                </section> 
+                                             
+        </div>
+    </body>
+</html>
+

@@ -1,0 +1,134 @@
+/*
+    body | div #one | div #two
+    div #one | h1 | section #groupI | section #groupI2
+    div #two | 
+    section #groupI | input #nameI 
+    section #groupI2 | input .orderI -> erasI(this) | button #addOrd -> addOrder()
+*/
+
+*{
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#one{
+    
+}
+
+/*-----------------------------one----------------------------------------*/
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+    text-shadow: lightgrey 3px 3px;
+    padding: 25px;
+    border-bottom: azure double 12px;
+    background-color: rgba(102, 221, 170, 0.5);
+}
+img{
+    position: relative;
+    left: -3vw;
+    top: 8px;
+}
+#groupI{
+    float:left;
+    width: 35%;
+    text-align: right;
+}
+#groupI2{
+    float: right;
+    width: 49%;
+    background-color: darkorchid;
+    box-shadow: lightgray 0px 0px 3px 3px;
+}
+#groupS{
+    float: left;
+    width: 100%;
+    background-color: mediumaquamarine;
+    margin-top: 40px;
+}
+/*------------------section #groupI----------------------------------------*/
+#nameI{
+    border: yellow 3px solid;
+    padding: 10px;
+}
+#addCus, #cusServed{
+    padding: 12px;
+    color: white;
+    margin-top: 30px;
+    border: none;
+    width: 49%;
+}
+#addCus{
+    background-color: cadetblue;
+    border: none;
+}
+#cusServed{
+    background-color: deeppink;
+    boder:none;
+}
+/*------------------section #groupI2---------------------------------------*/
+input{
+    padding: 5px;
+    height: 14px;
+}
+#addOrd{
+    color: white;
+    padding: 12px;
+    margin-left: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.orderI{
+    padding: 10px;
+}
+/*------------------section #groupS---------------------------------------*/
+table{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: chocolate solid 20px;
+    box-shadow: chocolate 0px 0px 1px 1px;
+}
+th, td{
+    padding: 12px;
+}
+tr{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+/*--------------instruction---------------------------------------------*/
+#instruction{
+    width: 85%;
+    float: left;
+    margin-top: 50px;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15%;
+    padding-right: 15%vw;
+    border: solid black 1px;
+}
+h4{
+    color: blueviolet;
+}
+li{
+    list-style-type: none;
+    padding-left: 12px;
+    color:cadetblue;
+}
+
+@media screen and (max-width: 569px){
+  #addCus, #cusServed{
+    padding: 12px;
+    color: white;
+    margin-top: 30px;
+    border: none;
+    width: 100%;
+    }
+}
+
+@media screen and (min-width:1000px){
+  body{
+      width: 80%;
+      margin:auto;
+  }
+}

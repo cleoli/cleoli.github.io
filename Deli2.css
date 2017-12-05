@@ -182,5 +182,11 @@ li{
     padding-top: 5vh;
     padding-bottom: 5vh;
   }
+  h4{
+    font-size: 18px;
+  }
+  li{
+    font-size: 15px;
+  }
 
 }

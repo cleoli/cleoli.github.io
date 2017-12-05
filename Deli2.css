@@ -193,11 +193,14 @@ li{
       border-top: chocolate solid 50px;
   }
   #instruction{
-    width: 90%;
-    padding-left: 5%;
-    padding-right: 5%;
+    width: 80%;
+    padding-left: 9%;
+    padding-right: 10%;
+    border: none;
+    border-top: black black 1px;
+    box-shadow: black 0px 0px 6px 5px;
   }
   #groupI2{
-    box-shadow: lightgray 0px 0px 10px 5px;
-}
+    box-shadow: lightgray 0px 0px 10px 7px;
+  }
 }

@@ -116,16 +116,9 @@ li{
     color:cadetblue;
 }
 
-@media screen and (max-width: 569px){
+@media screen and (max-width: 681px){
   #addCus, #cusServed{
-    padding: 12px;
-    color: white;
-    margin-top: 30px;
-    border: none;
     width: 100%;
-  }
-  #addOrd{
-      margin-top: 7px;
   }
 }
 @media screen and (min-width: 1000px){
@@ -134,7 +127,11 @@ li{
       width: 889px;
   }
 }
+
 @media screen and (min-height: 800px){
+  *{
+    font-size: 12px;
+  }
   h1{
     padding-top: 5vh;
     padding-bottom: 5vh;
@@ -148,4 +145,37 @@ li{
   #groupI2{
     margin-top: 5vh;
   }
+}
+
+@media screen and (min-device-width: 0px) and (max-device-width: 700px){ 
+  h1{
+    font-size: 46px;
+  }
+  #nameI,.orderI, button{
+    font-size: 24px;
+    padding: 24px;
+  }
+  #addOrd{
+      margin-top: 7px;
+  }
+  #groupI{
+    width: 40%;
+  }
+  #groupI2{
+      width: 53%;
+  }
+  th{
+    font-size: 27px;
+  }
+  td{
+    font-size: 24px;
+  }
+  #addCus, #cusServed{
+    width: 100%;
+  }
+  #groupS{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+
 }

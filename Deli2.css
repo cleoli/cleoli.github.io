@@ -191,5 +191,10 @@ li{
   }
   table{
       border-top: chocolate solid 50px;
-  }    
+  }
+  #instruction{
+    width: 80%;
+    padding-left: 9%;
+    padding-right: 10%;
+  }
 }

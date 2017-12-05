@@ -156,7 +156,10 @@ li{
     padding: 24px;
   }
   #addOrd{
-      margin-top: 24px;
+    margin: 0px;
+    margin-top: 24px;
+    width: 100%;
+    padding: 20px;  
   }
   #groupI{
     width: 40%;

@@ -24,7 +24,6 @@ h1{
     padding: 25px;
     border-bottom: azure double 12px;
     background-color: rgba(102, 221, 170, 0.5);
-    height: 10vh;
 }
 img{
     position: relative;
@@ -134,4 +133,10 @@ li{
       margin: auto;
       width: 889px;
   }
+}
+@media screen and (min-height: 800px){
+    h1{
+        padding-top: 6vh;
+        padding-bottom: 6vh;
+    }
 }

@@ -197,8 +197,8 @@ li{
     padding-left: 9%;
     padding-right: 10%;
     border: none;
-    border-top: black black 1px;
-    box-shadow: black 0px 0px 6px 5px;
+    border-top: black solid 1px;
+    box-shadow: black 0px 0px 10px 7px;
   }
   #groupI2{
     box-shadow: lightgray 0px 0px 10px 7px;

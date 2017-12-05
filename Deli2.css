@@ -189,5 +189,7 @@ li{
     font-size: 18px;
     padding: 12px;
   }
-
+  table{
+      boder-top: chocolate solid 50px;
+  }    
 }

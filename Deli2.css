@@ -172,6 +172,8 @@ li{
   }
   #addCus, #cusServed{
     width: 100%;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
   #groupS{
     padding-top: 5vh;

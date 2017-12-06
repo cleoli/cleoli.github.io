@@ -105,7 +105,7 @@ tr{
     padding-bottom: 20px;
     padding-left: 15%;
     padding-right: 15%vw;
-    border: solid black 1px;
+    box-shadow: black 0px 0px 3px 3px;
 }
 h4{
     color: blueviolet;

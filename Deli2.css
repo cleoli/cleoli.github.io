@@ -111,7 +111,7 @@ h4{
     color: blueviolet;
 }
 li{
-    list-style-type: none;
+    list-style-type: circle;
     padding-left: 12px;
     color:cadetblue;
 }

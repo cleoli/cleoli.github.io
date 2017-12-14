@@ -50,13 +50,11 @@ function addCus(){
     erasI2();    
 }
 
-function cusServed(){
-    cusL.shift();
+function cusServed(){    
     if(cusL.length >0){        
-        showCus();
-    }else{
-        showCus();
+        cusL.shift();
     }
+    showCus();   
 }
 
 function showCus(){

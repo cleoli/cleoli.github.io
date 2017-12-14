@@ -120,25 +120,3 @@ function erasI2(){
         order[0].value ='';
     }
 }
-
-/*
-    Test cases:
-    document.getElementById('nameI').value = 'Cleo';
-    document.getElementsByName('orderI') = ['4 Paper Plates', 'Pizza', 'Ice Cream', 'Chocolate'];
-    addCus();
-
-    document.getElementById('nameI').value = '';
-    document.getElementsByName('orderI') = ['4 Paper Plates', 'Pizza', 'Ice Cream', 'Chocolate'];
-    addCus();
-
-    document.getElementById('nameI').value = 'Cleo';
-    document.getElementsByName('orderI') = [];
-    addCus();
-    
-    document.getElementById('nameI').value = 'Cleo';
-    document.getElementsByName('orderI') = ['Pizza'];
-    addCus();
-
-    cusServed();
-    cusCurved();
-*/
